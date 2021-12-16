@@ -11,7 +11,7 @@
         * We are here to help, but please check web resources or consult with peers prior to asking Instructor/TAs. This helps build your "search muscles" which are very important to your future roles as Developers.
     * The objective is to achieve a portfolio with comparable quality to the image below.
 
-![](./assets/img/portfolio-example.png)
+![](./assets/image/portfolio-example.png)
 
 ## Part 1 - Clone the project
 
