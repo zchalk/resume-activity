@@ -1,9 +1,63 @@
-/* remove this code and add your own! */
 .greeting {
-    color: yellowgreen;
-    font-size: 30px;
+    color: whitesmoke;
+    font-size: 15px;
+    text-align: center;
+    padding: 10px;
+    background-color: yellowgreen;
+    margin-bottom: 40px;
   }
 
-  body {
-    background-color: black;
-  }
+.main-blocks {
+  width: 90%;
+}
+
+.headers {
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+.icons--headers {
+  width: 3rem;
+  margin-right: 0.5rem;
+}
+
+.contents {
+  font-size: 18px;
+}
+
+.headshot {
+  max-width: 70%;
+  margin: 30px auto;
+  border-radius: 10px;
+}
+
+.name {
+  margin-left: 60px;
+  font-size: 25px;
+}
+
+.position {
+  margin-left: 60px;
+  margin-bottom: 20px;
+}
+
+.contacts {
+  margin-left: 60px;
+  margin-bottom: 10px;
+}
+
+.icons--contacts {
+  width: 1.5rem;
+  margin: 0 5px;
+}
+
+.contact-block {
+  background-color: #FFFAF0;
+  border-radius: 10px;
+  padding-bottom: 50px;
+  border: #F5DEB3 solid;
+  padding: 3px;
+}
+
+
+
