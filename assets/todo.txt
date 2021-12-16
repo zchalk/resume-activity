@@ -1,0 +1,25 @@
+
+
+1.) Create a container to hold two sections for class career-profile. 
+    I.) Create a container section for career Profile
+        a.) within that section, create a div for the title logo classed logo
+        b.) create a a p tag for the text classed description
+
+    B.) create a container to hold three sections with class experiences
+        a.) in this section create a div with class logo
+        b.)create a div with class "pos-title" //will hold title, loc and dates
+            I.) div  for position and location// will hold pos and loc inside 
+                1.) add an h3 tago for position
+                2.) add a h4 tag for location
+            II.) add a h4 tag for dates and enter dates
+
+        c.) create a p tag that holds description
+
+2.) create a div tag to hold two elements with class contact-info
+	a.) create a div container to hold image and name/title with class profile
+		I.) add image in div
+		II.) make two p divs , one of name and the other for title
+	b.) create a div container with class social-media
+		1.) create a UL with class links
+			I.) add 4 li that
+				in each li include a img tag and a p tag for link info
