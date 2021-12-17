@@ -1,5 +1,58 @@
-/* remove this code and add your own! */
-.greeting {
-    color: green;
-    font-size: 30px;
-  }
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fauna+One&family=Playfair+Display:ital@0;1&display=swap');
+
+
+h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 30px;
+}
+
+h3, h5, h6, p {
+  font-family: 'Fauna One', serif;
+}
+
+p {
+  font-size: 11;
+}
+
+#profile {
+  grid-area: profile;
+}
+
+#ex {
+  grid-area: ex;
+
+}
+
+#me {
+  grid-area: me;
+  background-color: navajowhite;
+}
+
+.col-7 {
+  padding-top: 40px;
+  margin-bottom: 20px;
+}
+
+.col-5 {
+  background-color: #add8e6;
+  column-gap: 20px;
+  text-align: center;
+  padding-top: 40px;
+  margin-top: 30px;
+}
+
+.col-7 h5 {
+  background-color: #f3f9fb;
+}
+
+h6 {
+  background-color: #f6fcfc;
+  font-style: italic;
+  font-weight: bolder;
+}
+
+
+ul li {
+  width: 10em;
+  float: left;
+}
