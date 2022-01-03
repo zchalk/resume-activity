@@ -77,6 +77,27 @@ ul li {
 .pro-img {
   width: auto;
   height: auto;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 45px;
+  padding-bottom: 25px;
+}
+/* Explain in comments below what the media queries are doing in regards to different screen sizes */
+
+/* making the max width 992px and setting the custom text font size to 0.8 rem which is taken from the root element*/
+@media screen and (max-width: 992px){
+  .custom-text-cont p {
+      font-size: 0.8rem;
+  }
+}
+
+/* the child selector allows you to target the child selector immediately inside another element. giving them a specific order and then flex basis sets the initial main size of felx item. */
+@media screen and (max-width: 768px){
+  .custom-resume > div > div:first-child {
+      order: 2;
+  }
+  .custom-resume > div > div:last-child {
+      order: 1;
+  }
+  .custom-resume > div > div:last-child span {
+      flex-basis: 6%;
+  }
 }
