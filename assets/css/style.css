@@ -1,5 +1,106 @@
-/* remove this code and add your own! */
-.greeting {
-    color: green;
-    font-size: 30px;
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fauna+One&family=Playfair+Display:ital@0;1&display=swap');
+
+
+h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 30px;
+}
+
+h3, h5, h6, p, li {
+  font-family: 'Fauna One', serif;
+}
+
+p {
+  font-size: 14px;
+}
+
+#profile {
+  grid-area: profile;
+}
+
+#ex {
+  grid-area: ex;
+
+}
+
+#me {
+  grid-area: me;
+  background-color: navajowhite;
+}
+
+.col-7 {
+  padding-top: 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.col-7 p {
+  padding-bottom: 10px;
+}
+
+.col-5 {
+  background-color: #add8e6;
+  column-gap: 20px;
+  padding-top: 40px;
+  /*padding-bottom: 127px;*/
+  text-align: center; 
+}
+
+
+.col-5 p {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 5px;
+  margin-bottom: 0px;
+  border: 1px solid white;
+}
+
+.col-7 h5 {
+  background-color: #f3f9fb;
+}
+
+h6 {
+  background-color: #f6fcfc;
+  font-style: italic;
+  font-weight: bolder;
+}
+
+h1 {
+  border-bottom: 1px solid black;
+  padding-bottom: 5px;
+}
+
+ul li {
+  width: 10em;
+  float: left;
+}
+.pro-img {
+  width: auto;
+  height: auto;
+  padding-top: 45px;
+  padding-bottom: 25px;
+}
+/* Explain in comments below what the media queries are doing in regards to different screen sizes */
+
+/* making the max width 992px and setting the custom text font size to 0.8 rem which is taken from the root element*/
+@media screen and (max-width: 992px){
+  .custom-text-cont p {
+      font-size: 0.8rem;
   }
+  .col-5 p {
+    font-size: 10px;
+  }
+}
+
+/* the child selector allows you to target the child selector immediately inside another element. giving them a specific order and then flex basis sets the initial main size of felx item. */
+@media screen and (max-width: 768px){
+  .custom-resume > div > div:first-child {
+      order: 2;
+  }
+  .custom-resume > div > div:last-child {
+      order: 1;
+  }
+  .custom-resume > div > div:last-child span {
+      flex-basis: 6%;
+  }
+}
