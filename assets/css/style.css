@@ -42,7 +42,7 @@ p {
   background-color: #add8e6;
   column-gap: 20px;
   padding-top: 40px;
-  padding-bottom: 127px;
+  /*padding-bottom: 127px;*/
   text-align: center; 
 }
 
@@ -86,6 +86,9 @@ ul li {
 @media screen and (max-width: 992px){
   .custom-text-cont p {
       font-size: 0.8rem;
+  }
+  .col-5 p {
+    font-size: 10px;
   }
 }
 
