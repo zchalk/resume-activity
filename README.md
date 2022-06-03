@@ -41,10 +41,12 @@
     * `git push -u origin main`
         * Push changes from local repository to remote repository
 
-### Part 4 - Submitting assignment
+Deploy your app on GH-Pages by selecting on your Github the main branch under Settings --> Pages and then clicking Save - navigate to the link provided, OR
 
-* From the browser, navigate to the _forked_ project from **your** Github account.
-* Click the `Pull Requests` tab.
-* Select `New Pull Request`
+Navigate to Netlify sign up for an account by authenticating thru the Github option, and follow these directions step-by-step-guide-deploying
+
+When you are finished with the activity, drop a url link to your deployed app in the Chat or in the thread on our student Slack channel!
+
+At the end of the allotted time, we will have a few learners share their deployed apps. You will be expected to raise your hand and guide the class to your deployed app.
 
 Adapted from Leon Hunter.
