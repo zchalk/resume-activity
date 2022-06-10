@@ -1,5 +1,112 @@
-/* remove this code and add your own! */
-.greeting {
-    color: green;
-    font-size: 30px;
-  }
+body {
+margin: 0px;
+padding: opx;
+background: #f1f1f1;
+}
+.card-container {
+  width: 1000px;
+  height: 600px;
+  background: #fff;
+  border-radius: 6px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0px 1px 10px 1px;
+  display: inline-block;
+}
+
+.card-left {
+  width: 680px;
+  display: inline-block;
+  margin-left: 10px;
+}
+.card-right {
+ width: 250px;
+ height: 500px;
+ float: right;
+ position:relative;
+ top: 40px;
+ right: 20px;
+
+}
+.right-top{
+  background-color: rgb(94, 185, 245);
+  height: 300px;
+  text-align: center;
+
+}
+.right-bottom {
+  background-color: rgb(81, 154, 250);
+  height: 40%;
+  text-align: left;
+  
+
+}
+.name, .profession {
+  transform: translate(4px, 30px)
+}
+.name {
+  transform: translate(4px, 50px)
+}
+
+.profile-image{
+  background: white;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  padding: 5px;
+  transform: translate(40px, 40px);
+  
+  
+}
+.profile-image img{
+  background: white;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.career-profile {
+  color:rgb(19, 137, 247);
+}
+.experiences-title{
+  color:rgb(19, 137, 247);
+}
+#experience-icon {
+  color:rgb(19, 137, 247);
+}
+#profile-icon {
+  color:rgb(19, 137, 247);
+}
+
+#profile-icon, .career-profile {
+  display: inline-block;
+}
+#experience-icon, .experiences-title {
+  display: inline-block;
+}
+#phone-icon, .phone-number {
+  display: inline-block;
+}
+#email-icon, .email{
+  display: inline-block;
+}
+#github-icon, .github-link {
+  display: inline-block;
+}
+
+#icon, .linkedin-link {
+  display: inline-block
+}
+.duration {
+  float: right;
+}
+.location, .duration {
+  display: inline-block;
+  color: gray;
+  
+}
+.job-title, .location {
+  line-height: 0;
+}
