@@ -2,4 +2,23 @@
 .greeting {
     color: green;
     font-size: 30px;
+    background-color: aqua;
+    margin: 0 20px;
   }
+
+  .resumebd {
+    color: rgba(2, 8, 2, 0.671);
+    font-size: 20px;
+    background-color: aqua;
+    padding: 30px;
+    margin: 0 20px
+
+  }
+
+.greeting1 {
+  color: blue;
+  text-align: center;
+  background-color: rgb(35 47 58);
+  margin: 0 20px;
+}
+
